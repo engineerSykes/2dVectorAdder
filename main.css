@@ -1,0 +1,76 @@
+* {
+  font-size:  62.5%;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  background: #333;
+  color: white;
+}
+
+#title {
+   background: #111;
+   color: White;
+   font-size:     4em;
+}
+
+h3 {
+  display: inline-block;
+  margin: 5px 0px 5px;
+  font-size:   2.5em;
+}
+
+#inputs  {
+  background: #667;
+  color: orange;
+  margin: 25px;
+  font-size: 3em;
+}
+
+.vInputs {
+    font-size: 2.0em;
+    background: hsla(0, 0%, 0%, 0.2);
+    border: none;
+}
+
+#submitButton {
+  position: relative;
+  font-size: 2.2em;
+  background: red;
+  left: 400px;
+  bottom: 50px;
+  border-radius: 60%;
+  box-shadow: 0px 5px 20px #000;
+}
+
+#submitButton:hover {
+  background: green;
+  transition: background 0.3s ease 0.0s;
+}
+
+button {
+  position: relative;
+  background: hsla(0, 0%, 100%, 0.0);;
+  border: none;
+  bottom: 6px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+
+#outputBox {
+  display: table-cell;
+  position: absolute;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px auto;
+  color: black;
+  width: 300px;
+  height: 4em;
+  float: right;
+  top:   70px;
+  left: 360px;
+  border-radius: 10%;
+  box-shadow: 0px 5px 20px #000;
+  background: hsla(55, 70%, 70%, 1);
+}
